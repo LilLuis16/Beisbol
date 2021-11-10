@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Inicio | Beisbol</title>
+  <link rel="shortcut icon" href="recursos/pelota/pelota.png">
+  <link rel="stylesheet" href="stylescss/general.css">
+
+
+  <!--links-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--links-->
+
+  <!--enlazar los archivos para la galeria viewer-->
+  <link rel="stylesheet" href="arviewer/css/viewer.css">
+  <script type="text/javascript" src="arviewer/js/viewer.js"></script>
+  <!--enlazar los archivos para la galeria viewer-->
+
+  <!-- google fonts-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ranga:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+
+
+  <!-- google fonts-->
+
+  <!-- font awesome-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <!-- font awesome-->
+
+  <!--style-->
+  <style>
+
+    .bgimg-2 {
+      position: relative;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+    
+    .bgimg-2 {
+      background-image: url(recursos/parallax/img-parallax2.jpg);
+      min-height: 400px;
+    }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll }
+  }
+</style>
+
+</head>
+
+<div class="jumbotron text-center parallax" style="margin-bottom:0; background-image: url(recursos/parallax/pelota.jpg);">
+  <h1 class="title">SERIE DE BEISBOL DEL CARIBE<img class="img-fluid" src="recursos/pelota/pelota.png" alt="Pelota"></h1>
+  <p class="subtitle">Pagina Oficial de la liga y serie del caribe ROSITA-RACCN 2022, subcede BONANZA.</p> 
+</div>
+<!-- titulo de pagina y efecto parallax-->
+
+<!--barra de navegacion-->
+<header class="sticky-top fondo">
+  <div class="container">
+
+
+    <nav class="navbar navbar-expand-sm fondo navbar-dark">
+
+      <!-- menu vertical ixquierdo-->
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="">Equipos</a>
+        <a href="#">Jugadores</a>
+        <a href="#">grupo</a>
+        <a href="#">Juegos</a>
+        <a href="#">estadisticas</a>
+
+      </div>
+      <!-- menu vertical ixquierdo-->
+
+      <a class="navbar-brand" href="index.html"><img src="recursos/pelota/pelota4.png" width="70px" alt=""></a>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-start" id="collapse">
+        <ul class="navbar-nav">
+
+          <!-- menu vertical ixquierdo-->
+          <div id="main">
+            <span class="justify-content-start text-white" data-toggle="tooltip" title="menu exclusivo para la serie del caribe 2022" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;serie</span>
+          </div>
+          <!-- menu vertical ixquierdo-->
+
+          <div class="container-fluid justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">|  <i class="fas fa-home"></i>Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link text-white" href="#"><i class="fas fa-id-card"></i>Estadisticas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="fas fa-bolt"></i>Liga</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="equipos.html"><i class="fas fa-tshirt"></i>Equipos</a>
+            </li>
+
+
+          </li>
+        </li>    
+      </ul>
+    </div>
+  </div>
+
+</nav>
+</div>
+ <div class="headers">
+  <div class="progress-container">
+   <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" id="myBar" style="width:100%"></div>
+  </div>  
+</div>
+
+</header>
+
+<!--barra de navegacion-->
+
+
+
+  <hr>
+  <!-- info de beisbol nicaraguense -->
+
+  <div class="container bg-light mb-3 bord">
+    
+    <div class="justify-content-center container-fluid mt-3 fondo bord">
+      <h2 class="text-center text-white">Equipos locales de la liga de Rosita 2021-2022</h2>
+      <h2 class="text-center"><img src="recursos/pelota/pelota.png" width="60px" alt=""></h2>
+    </div>
+
+    <div class="justify-content-center dgeneralf">
+      <h2 class="text-center text-white">Datos Generales</h2>
+    </div>
+
+
+    <table id="myTable">
+      <tr class="header">
+        <th style="width:20%;">Nombre</th>
+        <th style="width:20%;">juego jugados</th>
+        <th style="width:20%;">juegos ganados</th>
+        <th style="width:20%;">juegos perdidos</th>
+        <th style="width:20%;">posicion</th>
+
+      </tr>
+      <tr>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+
+      </tr>
+      <tr>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+      </tr>
+      <tr>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+      </tr>
+      <tr>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+      </tr>
+      <tr>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+      </tr>
+      <tr>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+        <td>indefinido</td>
+      </tr>
+      <tr>
+       <td>indefinido</td>
+       <td>indefinido</td>
+       <td>indefinido</td>
+       <td>indefinido</td>
+       <td>indefinido</td>
+      </tr>
+    </table>
+
+  </div>
+
+  <!-- info de beisbol nicaraguense -->
+
+<!--efecto parallax 2-->
+  <div class="parallax" style="background-image: url(recursos/carousel/3.jpg);">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <!--efecto parallax 2-->
+  <!-- Comentarios de la pagina -->
+
+  <div class="container bg-danger mt-1">
+    <div>
+      <h2 class="text-center text-white hhh">Dejanos tu comentario aqui  <i class="far fa-laugh-beam"></i></h2>
+      <h2 class="text-center"><img src="recursos/pelota/pelota.png" width="60px" alt=""></h2>
+    </div>
+
+  <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://comentarios-publicos-2.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</div>
+  <!--efecto parallax 2-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <!--efecto parallax 2-->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted mt-5" >
+    <!-- Section: Social media -->
+    <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+    
+
+    <div>
+      <!-- center -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalbuzon">
+        Buzon <i class="fas fa-envelope-square"></i>
+      </button>
+      <!-- center -->
+    </div>
+
+    <!-- Right -->
+    <div>
+
+      <a href="index.html"  class="me-4 text-reset"> inicio
+        <i  class="fas fa-home"></i>|
+      </a>
+
+      <a href="https://www.facebook.com/profile.php?id=100009434584792" target="_blank" class="me-4 text-reset"> Facebook
+        <i  class="fab fa-facebook-f"></i>|
+      </a>
+      <a href="https://twitter.com/wichogames3" target="_blank" class="me-4 text-reset"> Twitter
+        <i class="fab fa-twitter"></i>|
+      </a>
+      <a href="https://www.instagram.com/luuis_uwu/" target="_blank" class="me-4 text-reset"> Instagram
+        <i class="fab fa-instagram"></i>|
+      </a>
+      <a href="https://github.com/LilLuis16" target="_blank" class="me-4 text-reset"> Github
+        <i class="fab fa-github"></i>|
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Ocupacion
+          </h6>
+          <p class="parrafo">
+            ¡HOLA! Soy estudiante de la carrera INGENIERIA EN SISTEMAS, curso el 4to año de mi carrera, la creacion de esta pagina es con el fin que sea una web de informacion Deportiva para la ciudad de ROSITA-RACCN.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contacto
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Nicaragua, RACCN, Rosita</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            rluisromero9@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +505 5768 9659</p>
+          <p><i class="fas fa-print me-3"></i> +505 5768 9659</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+
+
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Derechos Reservados:
+    <a class="text-reset fw-bold" href="#">Luis Rodriguez</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--sidenav vertical-->
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+  }
+</script>
+<!--sidenav vertical-->
+
+
+
+<!-- galeria con js-->
+
+<script src="js/viewer.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    var galley = document.getElementById('galley');
+    var viewer = new Viewer(galley, {
+      url: 'data-original',
+      title: function (image) {
+        return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
+      },
+    });
+  });
+</script>
+<!-- galeria con js-->
+
+<!-- tooltips-->
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
+</script>
+<!-- tooltips-->
+
+<!--barra de progreso-->
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+<!--barra de progreso-->
+
+
+</body>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalbuzon" tabindex="-1" role="dialog" data-backdrop="static" keyboard="false" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <h5 class="modal-title" id="exampleModalLabel">Centro de Ayuda, Opiniones personales<i class="fas fa-mail-bulk"></i></h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <form action="https://formsubmit.co/rluisromero9@gmail.com" method="POST">
+
+          <div class="form">
+            <h2 class="text-center buzon">Buzon <i class="fas fa-envelope-open-text"></i></h2>
+            <div class="grupo">
+              <input type="text" required><span class="barra"></span>
+              <label>Nombre</label>
+            </div>
+            <div class="grupo">
+              <input type="email" name="email" required><span class="barra"></span>
+              <label>Email</label>
+            </div>
+            <div class="grupo">
+              <input type="text" name="Asunto" required><span class="barra"></span>
+              <label>Asunto</label>
+            </div>
+            <div class="grupo">
+              <textarea type="text" name="Mensaje" rows="3" required></textarea><span class="barra"></span>
+              <label>Mensaje</label>
+            </div>
+            <button class="btn-light m-auto" type="submit">Enviar</button>
+          </div>
+
+        </form>
+
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer justify-content-center">
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Derechos Reservados:
+          <a class="text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100009434584792" target="_blank">Luis Rodriguez</a>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 1-->
+
+<!-- The Modal 2-->
+<div class="modal fade" id="myModal1" data-backdrop="static" keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">FOTOS<i class="fas fa-camera-retro"></i></h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container" >
+          <h1>Estadio Johnny Plehn Errington</h1>
+          <div id="galley">
+            <ul class="pictures" data-toggle="tooltip" title="Avanzes del estadio municipal de Rosita RACCN">
+              <li><img data-original="recursos/estadio/1.jpg" src="recursos/estadio/1.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/2.jpg" src="recursos/estadio/2.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/3.jpg" src="recursos/estadio/3.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/4.jpg" src="recursos/estadio/4.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/5.jpg" src="recursos/estadio/5.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/6.jpg" src="recursos/estadio/6.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/7.jpg" src="recursos/estadio/7.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/8.jpg" src="recursos/estadio/8.jpg" alt="Estadio en Construccion"></li>
+              <li><img data-original="recursos/estadio/9.jpg" src="recursos/estadio/9.jpg" alt="Estadio en Construccion"></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer justify-content-center">
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Derechos Reservados:
+          <a class="text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100009434584792" target="_blank">Luis Rodriguez</a>
+        </div>
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+</html>
